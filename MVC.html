@@ -110,7 +110,21 @@
                     </em>
                 </p>
                 <hr>
+                <p><em>
+                    view - contians layout page and renders in body section/partial view is used to make a small part of view page and render in views #done
 
+html.Partial returns as string and we can store it in a variable and can use it in anywhere in respective page write @htmlpartial 
+and Html.RenderPartial does not retrn any value. we have to use it in a view to render partial view content #done
+
+html.Action is used to load actin method in view and we can save its value in a variable
+ vs Html.RederAction  is used to load a action method in a view but we can not save it in a variable 
+ and Html.ActionLink is used to creat a hyperlink in a view and add action method name that will hit by on click on the hyperlink #done
+
+RenderBody - used in _layout pages to render views, RenderPage is used to reder a html page in _layput page like header, footer
+and RenderSection is used to render sections from view to _layout page, pass true to method for mendatory section and we have 
+to create a @section sectionanme{ some html code} #done
+
+layouts - create simple html page and add @renderBody method in body tag #done</em></p>
             </div>
 
             <!-- Sidebar Widgets Column -->
